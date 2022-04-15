@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\剑指offer">
+      <UniqueIdentifier>{92ad2f67-908d-41fe-b7e5-c551fe0d67e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LeetCode题目">
+      <UniqueIdentifier>{53f48299-6b66-4ea2-9202-cee488137383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\面试">
+      <UniqueIdentifier>{12516c88-183a-4129-b92f-f0566d3da681}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0001.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0009.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0053.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0070.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0088.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0094.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0096.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0100.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0104.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0108.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0110.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0111.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0112.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0113.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0129.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0139.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0169.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0217.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0300.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0307.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0509.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0673.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0746.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1137.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1584.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="p0009.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0030.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0006.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0024.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0035.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0050.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0032.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0003.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0004.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0005.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0011.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0053.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0053-2.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0058-2.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0032-2%28Solution1%29.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0032-2(Solution2).h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0032-3.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0027.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0028.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0028(Solution2).h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0010-1.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0026.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0010-2.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0063.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="0034.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0154.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0226.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="p0047.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0042.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0046.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0048.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0022.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0025.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0052.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0021.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0057.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0058-1.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0012.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0013.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="0198.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0213.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0740.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0055.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0045.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="p0034.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0036.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0054.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="0918.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0152.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1567.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1014.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0122.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="p0045.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0061.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="0350.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0118.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0566.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0036.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0073.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="p0040.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0041.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0055-1.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0055-2.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0064.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0068-1.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="0215.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="p0024-2.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="0025.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="printMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="p0051.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="m0105.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0107.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0108.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0204.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0205.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0208.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0144.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClCompile>
+    <ClCompile Include="0145.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClCompile>
+    <ClCompile Include="p0018.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
