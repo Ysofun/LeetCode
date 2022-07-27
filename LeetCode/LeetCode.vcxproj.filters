@@ -22,6 +22,9 @@
     <Filter Include="头文件\面试">
       <UniqueIdentifier>{12516c88-183a-4129-b92f-f0566d3da681}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\剑指Offer_2">
+      <UniqueIdentifier>{68b83def-d8a6-4481-a808-57f97f280831}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h">
@@ -332,6 +335,27 @@
     </ClInclude>
     <ClInclude Include="m0208.h">
       <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="0167.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0027.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="m0101.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0102.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0103.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0104.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="J001.h">
+      <Filter>头文件\剑指Offer_2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
