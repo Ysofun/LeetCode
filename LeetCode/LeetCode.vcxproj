@@ -157,9 +157,11 @@
     <ClInclude Include="0215.h" />
     <ClInclude Include="0350.h" />
     <ClInclude Include="0566.h" />
+    <ClInclude Include="0724.h" />
     <ClInclude Include="0740.h" />
     <ClInclude Include="0918.h" />
     <ClInclude Include="1014.h" />
+    <ClInclude Include="1480.h" />
     <ClInclude Include="1567.h" />
     <ClInclude Include="J001.h" />
     <ClInclude Include="m0101.h" />
