@@ -405,6 +405,9 @@
     <ClInclude Include="p0040_3.h">
       <Filter>头文件\剑指offer</Filter>
     </ClInclude>
+    <ClInclude Include="m0809.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">

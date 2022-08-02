@@ -186,6 +186,7 @@
     <ClInclude Include="m0204.h" />
     <ClInclude Include="m0205.h" />
     <ClInclude Include="m0208.h" />
+    <ClInclude Include="m0809.h" />
     <ClInclude Include="p0012.h" />
     <ClInclude Include="p0013.h" />
     <ClInclude Include="p0021.h" />
