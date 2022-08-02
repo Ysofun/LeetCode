@@ -195,6 +195,8 @@
     <ClInclude Include="p0034.h" />
     <ClInclude Include="p0036.h" />
     <ClInclude Include="p0040.h" />
+    <ClInclude Include="p0040_2.h" />
+    <ClInclude Include="p0040_3.h" />
     <ClInclude Include="p0041.h" />
     <ClInclude Include="p0045.h" />
     <ClInclude Include="p0048.h" />

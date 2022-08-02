@@ -399,6 +399,12 @@
     <ClInclude Include="0278.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
+    <ClInclude Include="p0040_2.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
+    <ClInclude Include="p0040_3.h">
+      <Filter>头文件\剑指offer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">
