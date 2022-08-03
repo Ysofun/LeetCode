@@ -408,6 +408,12 @@
     <ClInclude Include="m0809.h">
       <Filter>头文件\面试</Filter>
     </ClInclude>
+    <ClInclude Include="0098.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0235.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">
