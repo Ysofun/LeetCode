@@ -1,10 +1,8 @@
-#include <cstdio>
-#include <stdlib.h>
-#define sum(a, b,\
-c)
+#include "0224.h"
+
+
 int main()
 {
-	printf("asd\
-asd");
-	system("pause");
+	Solution a;
+	a.calculate("1 + 1");
 }

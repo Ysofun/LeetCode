@@ -420,6 +420,21 @@
     <ClInclude Include="0200.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
+    <ClInclude Include="0062.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1221.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0232.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1035.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0224.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">
