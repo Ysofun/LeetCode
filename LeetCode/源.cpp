@@ -1,8 +1,8 @@
-#include "0224.h"
+#include "0438.h"
 
 
 int main()
 {
 	Solution a;
-	a.calculate("1 + 1");
+	a.findAnagrams("aaaaaaaaaa", "aaaaaaaaaaaaa");
 }

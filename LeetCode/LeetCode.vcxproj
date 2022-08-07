@@ -171,6 +171,8 @@
     <ClInclude Include="0350.h" />
     <ClInclude Include="0392.h" />
     <ClInclude Include="0409.h" />
+    <ClInclude Include="0424.h" />
+    <ClInclude Include="0438.h" />
     <ClInclude Include="0566.h" />
     <ClInclude Include="0589.h" />
     <ClInclude Include="0704.h" />
