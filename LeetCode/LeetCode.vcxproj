@@ -168,6 +168,7 @@
     <ClInclude Include="0232.h" />
     <ClInclude Include="0235.h" />
     <ClInclude Include="0278.h" />
+    <ClInclude Include="0299.h" />
     <ClInclude Include="0350.h" />
     <ClInclude Include="0392.h" />
     <ClInclude Include="0409.h" />
