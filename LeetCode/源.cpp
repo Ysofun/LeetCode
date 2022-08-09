@@ -1,8 +1,8 @@
-#include "0438.h"
+#include "0394.h"
 
 
 int main()
 {
 	Solution a;
-	a.findAnagrams("aaaaaaaaaa", "aaaaaaaaaaaaa");
+	a.decodeString("2[abc]3[cd]ef");
 }
