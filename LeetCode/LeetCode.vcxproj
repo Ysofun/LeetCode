@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClInclude Include="0001.h" />
     <ClInclude Include="0009.h" />
+    <ClInclude Include="0014.h" />
     <ClInclude Include="0021.h" />
     <ClInclude Include="0025.h" />
     <ClInclude Include="0027.h" />
     <ClInclude Include="0034.h" />
     <ClInclude Include="0036.h" />
+    <ClInclude Include="0043.h" />
     <ClInclude Include="0045.h" />
     <ClInclude Include="0054.h" />
     <ClInclude Include="0055.h" />

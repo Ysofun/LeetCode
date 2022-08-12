@@ -1,8 +1,8 @@
-#include "0394.h"
+#include "0043.h"
 
 
 int main()
 {
 	Solution a;
-	a.decodeString("2[abc]3[cd]ef");
+	a.multiply("123", "456");
 }
