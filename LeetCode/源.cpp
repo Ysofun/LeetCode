@@ -1,8 +1,9 @@
-#include "0043.h"
+#include "0135.h"
 
 
 int main()
 {
+	vector<int> ratings = { 1, 2, 2 };
 	Solution a;
-	a.multiply("123", "456");
+	a.candy(ratings);
 }

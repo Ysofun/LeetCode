@@ -159,6 +159,7 @@
     <ClInclude Include="0118.h" />
     <ClInclude Include="0121.h" />
     <ClInclude Include="0122.h" />
+    <ClInclude Include="0135.h" />
     <ClInclude Include="0142.h" />
     <ClInclude Include="0152.h" />
     <ClInclude Include="0167.h" />
@@ -177,6 +178,7 @@
     <ClInclude Include="0278.h" />
     <ClInclude Include="0299.h" />
     <ClInclude Include="0350.h" />
+    <ClInclude Include="0382.h" />
     <ClInclude Include="0392.h" />
     <ClInclude Include="0394.h" />
     <ClInclude Include="0409.h" />
@@ -197,6 +199,7 @@
     <ClInclude Include="1046.h" />
     <ClInclude Include="1221.h" />
     <ClInclude Include="1480.h" />
+    <ClInclude Include="1545.h" />
     <ClInclude Include="1567.h" />
     <ClInclude Include="1706.h" />
     <ClInclude Include="J001.h" />
