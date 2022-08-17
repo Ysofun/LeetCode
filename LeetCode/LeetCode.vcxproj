@@ -185,7 +185,9 @@
     <ClInclude Include="0394.h" />
     <ClInclude Include="0409.h" />
     <ClInclude Include="0424.h" />
+    <ClInclude Include="0437.h" />
     <ClInclude Include="0438.h" />
+    <ClInclude Include="0543.h" />
     <ClInclude Include="0566.h" />
     <ClInclude Include="0589.h" />
     <ClInclude Include="0621.h" />
