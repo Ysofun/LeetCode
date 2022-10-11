@@ -531,6 +531,30 @@
     <ClInclude Include="0815.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
+    <ClInclude Include="0670.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1619.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0912.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0801.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1790.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0349.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0032.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0124.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">

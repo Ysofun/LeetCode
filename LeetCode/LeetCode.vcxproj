@@ -146,6 +146,7 @@
     <ClInclude Include="0021.h" />
     <ClInclude Include="0025.h" />
     <ClInclude Include="0027.h" />
+    <ClInclude Include="0032.h" />
     <ClInclude Include="0033.h" />
     <ClInclude Include="0034.h" />
     <ClInclude Include="0036.h" />
@@ -161,6 +162,7 @@
     <ClInclude Include="0118.h" />
     <ClInclude Include="0121.h" />
     <ClInclude Include="0122.h" />
+    <ClInclude Include="0124.h" />
     <ClInclude Include="0135.h" />
     <ClInclude Include="0142.h" />
     <ClInclude Include="0148.h" />
@@ -197,14 +199,17 @@
     <ClInclude Include="0566.h" />
     <ClInclude Include="0589.h" />
     <ClInclude Include="0621.h" />
+    <ClInclude Include="0670.h" />
     <ClInclude Include="0692.h" />
     <ClInclude Include="0704.h" />
     <ClInclude Include="0724.h" />
     <ClInclude Include="0733.h" />
     <ClInclude Include="0740.h" />
+    <ClInclude Include="0801.h" />
     <ClInclude Include="0815.h" />
     <ClInclude Include="0844.h" />
     <ClInclude Include="0876.h" />
+    <ClInclude Include="0912.h" />
     <ClInclude Include="0918.h" />
     <ClInclude Include="0994.h" />
     <ClInclude Include="1014.h" />
@@ -214,8 +219,11 @@
     <ClInclude Include="1480.h" />
     <ClInclude Include="1545.h" />
     <ClInclude Include="1567.h" />
+    <ClInclude Include="1619.h" />
     <ClInclude Include="1706.h" />
+    <ClInclude Include="1790.h" />
     <ClInclude Include="2131.h" />
+    <ClInclude Include="0349.h" />
     <ClInclude Include="J001.h" />
     <ClInclude Include="m0101.h" />
     <ClInclude Include="m0102.h" />

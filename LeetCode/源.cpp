@@ -1,9 +1,11 @@
-#include "0417.h"
+#include <iostream>
+using namespace std;
 
 
 int main()
 {
-	vector<vector<int>> heights = { {1, 1}, {1, 1}, {1, 1} };
-	Solution A;
-	A.pacificAtlantic(heights);
+	unsigned int value = 1024;
+	bool* condition1 = (bool*)&value;
+	bool condition2 = *((bool*)(&value));
+	cout << *condition1 << ' ' << condition2;
 }
