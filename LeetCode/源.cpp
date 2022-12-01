@@ -1,11 +1,8 @@
-#include <iostream>
-using namespace std;
-
+#include "1049.h"
 
 int main()
 {
-	unsigned int value = 1024;
-	bool* condition1 = (bool*)&value;
-	bool condition2 = *((bool*)(&value));
-	cout << *condition1 << ' ' << condition2;
+	vector<int> stones = { 2,7,4,1,8,1 };
+	Solution a;
+	a.lastStoneWeightII(stones);
 }

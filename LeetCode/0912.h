@@ -3,33 +3,40 @@
 class Solution {
 public:
 
-	template<typename T>
-	void RandomizedQuicksort(vector<T>& nums, int l, int r)
+	void QuickSort(vector<int>& arr, int l, int r)
 	{
 		if (l >= r) { return; }
-		
-		int pos = rand() % (r - l + 1) + l;
-		swap(nums[l], nums[pos]);
 
-		T pivot = nums[l];
-		int i = l, j = r;
-		while (i < j)
+		int mid = rand() % (r - l + 1) + l;
+		swap(arr[mid], arr[l]);
+		int pivot = arr[l];
+
+		int i = l + 1, j = r, k = l;
+		while (i <= j)
 		{
-			while (i < j && nums[j] >= pivot) { j--; }
-			if (i < j) { nums[i] = nums[j]; }
-
-			while (i < j && nums[i] <= pivot) { i++; }
-			if (i < j) { nums[j] = nums[i]; }
+			if (arr[i] < pivot)
+			{
+				swap(arr[i], arr[k]);
+				k++;
+				i++;
+			}
+			else if (arr[i] > pivot)
+			{
+				swap(arr[i], arr[j]);
+				j--;
+			}
+			else
+			{
+				i++;
+			}
 		}
 
-		nums[i] = pivot;
-
-		RandomizedQuicksort(nums, l, i - 1);
-		RandomizedQuicksort(nums, i + 1, r);
+		QuickSort(arr, l, k - 1);
+		QuickSort(arr, i, r);
 	}
 
 	vector<int> sortArray(vector<int>& nums) {
-		RandomizedQuicksort<int>(nums, 0, nums.size() - 1);
+		QuickSort(nums, 0, nums.size() - 1);
 		return nums;
 	}
 };
