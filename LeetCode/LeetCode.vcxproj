@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -141,14 +141,18 @@
   <ItemGroup>
     <ClInclude Include="0001.h" />
     <ClInclude Include="0009.h" />
+    <ClInclude Include="0013.h" />
     <ClInclude Include="0014.h" />
     <ClInclude Include="0019.h" />
+    <ClInclude Include="0020.h" />
     <ClInclude Include="0021.h" />
     <ClInclude Include="0025.h" />
+    <ClInclude Include="0026.h" />
     <ClInclude Include="0027.h" />
     <ClInclude Include="0032.h" />
     <ClInclude Include="0033.h" />
     <ClInclude Include="0034.h" />
+    <ClInclude Include="0035.h" />
     <ClInclude Include="0036.h" />
     <ClInclude Include="0043.h" />
     <ClInclude Include="0045.h" />
@@ -185,6 +189,7 @@
     <ClInclude Include="0268.h" />
     <ClInclude Include="0274.h" />
     <ClInclude Include="0278.h" />
+    <ClInclude Include="0297.h" />
     <ClInclude Include="0299.h" />
     <ClInclude Include="0312.h" />
     <ClInclude Include="0328.h" />
@@ -192,6 +197,7 @@
     <ClInclude Include="0382.h" />
     <ClInclude Include="0392.h" />
     <ClInclude Include="0394.h" />
+    <ClInclude Include="0398.h" />
     <ClInclude Include="0409.h" />
     <ClInclude Include="0417.h" />
     <ClInclude Include="0424.h" />
@@ -211,10 +217,13 @@
     <ClInclude Include="0740.h" />
     <ClInclude Include="0769.h" />
     <ClInclude Include="0780.h" />
+    <ClInclude Include="0783.h" />
     <ClInclude Include="0801.h" />
     <ClInclude Include="0815.h" />
     <ClInclude Include="0817.h" />
     <ClInclude Include="0844.h" />
+    <ClInclude Include="0851.h" />
+    <ClInclude Include="0852.h" />
     <ClInclude Include="0876.h" />
     <ClInclude Include="0912.h" />
     <ClInclude Include="0918.h" />
@@ -232,13 +241,17 @@
     <ClInclude Include="1545.h" />
     <ClInclude Include="1567.h" />
     <ClInclude Include="1619.h" />
+    <ClInclude Include="1636.h" />
     <ClInclude Include="1706.h" />
     <ClInclude Include="1790.h" />
     <ClInclude Include="2131.h" />
     <ClInclude Include="0349.h" />
+    <ClInclude Include="2161.h" />
     <ClInclude Include="2311.h" />
-    <ClInclude Include="416.h" />
+    <ClInclude Include="2441.h" />
+    <ClInclude Include="0416.h" />
     <ClInclude Include="J001.h" />
+    <ClInclude Include="J050.h" />
     <ClInclude Include="m0101.h" />
     <ClInclude Include="m0102.h" />
     <ClInclude Include="m0103.h" />
@@ -250,6 +263,9 @@
     <ClInclude Include="m0205.h" />
     <ClInclude Include="m0208.h" />
     <ClInclude Include="m0809.h" />
+    <ClInclude Include="m0811.h" />
+    <ClInclude Include="m0813.h" />
+    <ClInclude Include="m1619.h" />
     <ClInclude Include="p0012.h" />
     <ClInclude Include="p0013.h" />
     <ClInclude Include="p0021.h" />

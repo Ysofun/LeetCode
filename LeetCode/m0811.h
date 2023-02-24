@@ -1,0 +1,7 @@
+#pragma once
+class Solution {
+public:
+    int waysToChange(int n) {
+
+    }
+};

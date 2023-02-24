@@ -588,13 +588,61 @@
     <ClInclude Include="0141.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
-    <ClInclude Include="416.h">
+    <ClInclude Include="0416.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
     <ClInclude Include="1049.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
     <ClInclude Include="0474.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="2441.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0852.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0297.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0851.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0783.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="2161.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1636.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="m1619.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="m0813.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="J050.h">
+      <Filter>头文件\剑指Offer_2</Filter>
+    </ClInclude>
+    <ClInclude Include="0398.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="m0811.h">
+      <Filter>头文件\面试</Filter>
+    </ClInclude>
+    <ClInclude Include="0020.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0013.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0026.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0035.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
   </ItemGroup>
