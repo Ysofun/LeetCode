@@ -235,6 +235,7 @@
     <ClInclude Include="1046.h" />
     <ClInclude Include="1049.h" />
     <ClInclude Include="1104.h" />
+    <ClInclude Include="1186.h" />
     <ClInclude Include="1221.h" />
     <ClInclude Include="0141.h" />
     <ClInclude Include="1441.h" />
