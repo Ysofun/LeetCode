@@ -651,6 +651,18 @@
     <ClInclude Include="1186.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
+    <ClInclude Include="1416.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0078.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="maxSubString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="J072.h">
+      <Filter>头文件\剑指Offer_2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">

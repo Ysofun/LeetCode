@@ -161,6 +161,7 @@
     <ClInclude Include="0062.h" />
     <ClInclude Include="0073.h" />
     <ClInclude Include="0074.h" />
+    <ClInclude Include="0078.h" />
     <ClInclude Include="0098.h" />
     <ClInclude Include="0102.h" />
     <ClInclude Include="0118.h" />
@@ -238,6 +239,7 @@
     <ClInclude Include="1186.h" />
     <ClInclude Include="1221.h" />
     <ClInclude Include="0141.h" />
+    <ClInclude Include="1416.h" />
     <ClInclude Include="1441.h" />
     <ClInclude Include="1480.h" />
     <ClInclude Include="1545.h" />
@@ -254,6 +256,7 @@
     <ClInclude Include="0416.h" />
     <ClInclude Include="J001.h" />
     <ClInclude Include="J050.h" />
+    <ClInclude Include="J072.h" />
     <ClInclude Include="m0101.h" />
     <ClInclude Include="m0102.h" />
     <ClInclude Include="m0103.h" />
@@ -347,6 +350,7 @@
     <ClInclude Include="printMatrix.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="0100.h" />
+    <ClInclude Include="maxSubString.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0144.h" />

@@ -1,8 +1,7 @@
-#include "1049.h"
-
+#include "maxSubString.h"
+#include <iostream>
 int main()
 {
-	vector<int> stones = { 2,7,4,1,8,1 };
 	Solution a;
-	a.lastStoneWeightII(stones);
+	cout << a.maxSubString("sadfffffrgn");
 }
