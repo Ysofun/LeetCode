@@ -259,6 +259,7 @@
     <ClInclude Include="2441.h" />
     <ClInclude Include="0416.h" />
     <ClInclude Include="J001.h" />
+    <ClInclude Include="J076.h" />
     <ClInclude Include="J050.h" />
     <ClInclude Include="J072.h" />
     <ClInclude Include="m0101.h" />
@@ -275,6 +276,7 @@
     <ClInclude Include="m0811.h" />
     <ClInclude Include="m0813.h" />
     <ClInclude Include="m1619.h" />
+    <ClInclude Include="m1714.h" />
     <ClInclude Include="p0012.h" />
     <ClInclude Include="p0013.h" />
     <ClInclude Include="p0021.h" />
