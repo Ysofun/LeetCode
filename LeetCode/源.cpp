@@ -1,7 +1,8 @@
-#include "maxSubString.h"
+#include "0975.h"
 #include <iostream>
 int main()
 {
+	vector<int> vec = { 2, 3, 1, 1, 4 };
 	Solution a;
-	cout << a.maxSubString("sadfffffrgn");
+	a.oddEvenJumps(vec);
 }
