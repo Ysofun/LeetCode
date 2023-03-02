@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="0001.h" />
+    <ClInclude Include="0003.h" />
     <ClInclude Include="0009.h" />
     <ClInclude Include="0013.h" />
     <ClInclude Include="0014.h" />
+    <ClInclude Include="0015.h" />
     <ClInclude Include="0019.h" />
     <ClInclude Include="0020.h" />
     <ClInclude Include="0021.h" />
@@ -171,6 +173,7 @@
     <ClInclude Include="0124.h" />
     <ClInclude Include="0135.h" />
     <ClInclude Include="0142.h" />
+    <ClInclude Include="0146.h" />
     <ClInclude Include="0148.h" />
     <ClInclude Include="0152.h" />
     <ClInclude Include="0167.h" />

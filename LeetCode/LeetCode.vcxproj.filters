@@ -681,6 +681,15 @@
     <ClInclude Include="J076.h">
       <Filter>头文件\剑指Offer_2</Filter>
     </ClInclude>
+    <ClInclude Include="0003.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0146.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0015.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">
