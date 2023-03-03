@@ -20,17 +20,14 @@ public:
 
 	vector<int> twoSum(vector<int>& nums, int target)
 	{
-		map<int, int> FindNum;
+		sort(nums.begin(), nums.end());
+		int j = nums.size() - 1;
 		for (int i = 0; i < nums.size(); i++)
 		{
-			map<int, int>::iterator it = FindNum.find(target - nums[i]);
-			if (it != FindNum.end())
-			{
-				return { it->second, i };
-			}
-			FindNum.insert(make_pair(nums[i], i));
+			while (i < j && nums[i] + nums[j] > target) { j--; }
+			if (i == j) { break; }
+			if (nums[i] + nums[j] == target) { return { i, j }; }
 		}
-
 		return {};
 	}
 };

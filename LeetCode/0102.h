@@ -1,44 +1,25 @@
 #pragma once
-
-
-
 class Solution {
 public:
 	vector<vector<int>> levelOrder(TreeNode* root) {
-
+		if (root == nullptr) { return {}; }
 		vector<vector<int>> ans;
-		if (root == nullptr)
+		queue<TreeNode*> BFSCache;
+		BFSCache.push(root);
+		while (!BFSCache.empty())
 		{
-			return ans;
-		}
-
-		queue<TreeNode*> q;
-		q.emplace(root);
-
-		while (!q.empty())
-		{
-			vector<int> temp;
-
-			for (int i = q.size() - 1; i >= 0; i--)
+			vector<int> level;
+			int n = BFSCache.size();
+			for (int i = 0; i < n; i++)
 			{
-				TreeNode* TempNode = q.front();
-				q.pop();
-				temp.emplace_back(TempNode->val);
-
-				if (TempNode->left)
-				{
-					q.emplace(TempNode->left);
-				}
-				if (TempNode->right)
-				{
-					q.emplace(TempNode->right);
-				}
+				TreeNode* node = BFSCache.front();
+				BFSCache.pop();
+				level.emplace_back(node->val);
+				if (node->left != nullptr) { BFSCache.emplace(node->left); }
+				if (node->right != nullptr) { BFSCache.emplace(node->right); }
 			}
-
-			ans.emplace_back(temp);
-			temp.clear();
+			ans.emplace_back(level);
 		}
-
 		return ans;
 	}
 };
