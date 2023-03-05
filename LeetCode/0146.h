@@ -1,73 +1,66 @@
-#pragma once
-
-struct DLinkedNode
-{
-    int key, value;
-    DLinkedNode* prev;
-    DLinkedNode* next;
-    DLinkedNode(): key(0), value(0), prev(nullptr), next(nullptr) {}
-    DLinkedNode(int _key, int _value): key(_key), value(_value), prev(nullptr), next(nullptr) {}
-};
-
 class LRUCache {
-private:
-    DLinkedNode* head;
-    DLinkedNode* tail;
-    int size, capacity;
-    unordered_map<int, DLinkedNode*> cache;
-
 public:
-    LRUCache(int _capacity): capacity(_capacity), size(0) {
-        head = new DLinkedNode();
-        tail = new DLinkedNode();
-        head->next = tail;
-        tail->prev = head;
-    }
+	struct DlinkedNode
+	{
+		int key, val;
+		DlinkedNode* prev;
+		DlinkedNode* next;
+		DlinkedNode(int _key, int _val) : key(_key), val(_val), prev(nullptr), next(nullptr) {}
+		void RemoveNode()
+		{
+			prev->next = next;
+			next->prev = prev;
+		}
+		void InsertNode(DlinkedNode* node)
+		{
+			next = node->next;
+			prev = node;
+			node->next->prev = this;
+			node->next = this;
+		}
+	};
 
-    int get(int key) {
-        if (!cache.count(key)) { return -1; }
-        RemoveNode(cache[key]);
-        InsertNode(head, cache[key]);
-        return cache[key]->value;
-    }
+	int capacity, size;
+	DlinkedNode* head;
+	DlinkedNode* tail;
+	unordered_map<int, DlinkedNode*> cache;
 
-    void put(int key, int value) {
-        if (!cache.count(key))
-        {
-            DLinkedNode* node = new DLinkedNode(key, value);
-            cache[key] = node;
+	LRUCache(int _capacity) : capacity(_capacity), size(0) {
+		head = new DlinkedNode(0, 0);
+		tail = new DlinkedNode(0, 0);
+		head->next = tail;
+		tail->prev = head;
+	}
 
-            InsertNode(head, node);
-            size++;
-            if (size > capacity)
-            {
-                DLinkedNode* removed = tail->prev;
-                cache.erase(removed->key);
-                removed->prev->next = tail;
-                tail->prev = removed->prev;
-                delete removed;
-                size--;
-            }
-        }
-        else
-        {
-            cache[key]->value = value;
-            RemoveNode(cache[key]);
-            InsertNode(head, cache[key]);
-        }
-    }
+	void MoveToHead(DlinkedNode* node)
+	{
+		node->RemoveNode();
+		node->InsertNode(head);
+	}
 
-    void RemoveNode(DLinkedNode* node)
-    {
-        node->prev->next = node->next;
-        node->next->prev = node->prev;
-    }
+	int get(int key) {
+		if (!cache.count(key)) { return -1; }
+		MoveToHead(cache[key]);
+		return cache[key]->val;
+	}
 
-    void InsertNode(DLinkedNode* inserted, DLinkedNode* node)
-    {
-        node->next = inserted->next;
-        inserted->next->prev = node;
-        inserted->next = node;
-        node->prev = inserted;
-    }
+	void put(int key, int value) {
+		if (cache.count(key))
+		{
+			cache[key]->val = value;
+			MoveToHead(cache[key]);
+			return;
+		}
+
+		size++;
+		DlinkedNode* temp = new DlinkedNode(key, value);
+		if (size > capacity)
+		{
+			cache.erase(tail->prev->key);
+			tail->prev->RemoveNode();
+			size--;
+		}
+		temp->InsertNode(head);
+		cache[key] = temp;
+	}
 };

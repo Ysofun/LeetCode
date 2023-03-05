@@ -5,40 +5,29 @@
 class Solution {
 public:
 	vector<int> spiralOrder(vector<vector<int>>& matrix) {
-		
+		int xGo[4] = { 0, 1, 0, -1 };
+		int yGo[4] = { 1, 0, -1, 0 };
+
 		int n = matrix.size(), m = matrix[0].size();
+		vector<vector<bool>> bWalked(n, vector<bool>(m, false));
 		vector<int> ans;
-		
-		while (n > 0 && m > 0)
+		int direction = 0, x = 0, y = 0;
+		ans.emplace_back(matrix[0][0]);
+		bWalked[0][0] = true;
+		while (ans.size() < n * m)
 		{
-			for (int j = 0; j < m; j++)
+			int nextX = x + xGo[direction % 4];
+			int nextY = y + yGo[direction % 4];
+
+			if (nextX < 0 || nextY < 0 || nextX == n || nextY == m || bWalked[nextX][nextY])
 			{
-				ans.emplace_back(matrix[0][j]);
+				direction++;
+				continue;
 			}
-
-			vector<vector<int>> temp(m, vector<int>(n - 1));
-			for (int i = 1; i < n; i++)
-			{
-				for (int j = 0; j < m; j++)
-				{
-					temp[m - 1 - j][i - 1] = matrix[i][j];
-				}
-			}
-
-			n = temp.size();
-			m = temp[0].size();
-
-			for (int i = 0; i < temp.size(); i++)
-			{
-				for (int j = 0; j < temp[i].size(); j++)
-				{
-					cout << temp[i][j] << ' ';
-				}
-				cout << endl;
-			}
-
-			matrix.swap(temp);
-			temp.clear();
+			ans.emplace_back(matrix[nextX][nextY]);
+			bWalked[nextX][nextY] = true;
+			x = nextX;
+			y = nextY;
 		}
 
 		return ans;
