@@ -720,6 +720,12 @@
     <ClInclude Include="0415.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
+    <ClInclude Include="0042.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0143.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">

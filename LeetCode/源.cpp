@@ -1,4 +1,4 @@
-#include "0975.h"
+#include "0143.h"
 #include <iostream>
 int main()
 {

@@ -1,25 +1,18 @@
-#pragma once
-
-
 class Solution {
 public:
-
-	int ans;
-	int Query(TreeNode* root)
+	int DFS(TreeNode* root, int& ans)
 	{
 		if (root == nullptr) { return 0; }
+		int lsum = DFS(root->left, ans);
+		int rsum = DFS(root->right, ans);
 
-		int lsum = Query(root->left);
-		int rsum = Query(root->right);
-
-		int ret = max(max(lsum, rsum) + root->val, root->val);
-		ans = max(max(ans, ret), lsum + rsum + root->val);
-		return ret;
+		int maxSum = max(max(lsum, rsum) + root->val, root->val);
+		ans = max(ans, max(maxSum, lsum + rsum + root->val));
+		return maxSum;
 	}
-
 	int maxPathSum(TreeNode* root) {
-		ans = root->val;
-		Query(root);
+		int ans = INT_MIN;
+		DFS(root, ans);
 		return ans;
 	}
 };
