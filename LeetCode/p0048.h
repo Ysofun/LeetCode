@@ -1,38 +1,15 @@
 #pragma once
-#include <map>
-#include <string>
-using namespace std;
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int ans = 0;
-        int sum = 0;
-        map<char, int> chPos;
-        for (int i = 0; i < s.length(); i++)
+        vector<int> AppearChar(128);
+        int ans = 0, l = 0;
+        for (int r = 0; r < s.size(); r++)
         {
-            if (chPos.find(s[i]) == chPos.end())
-            {
-                sum++;
-                chPos.insert(pair<char, int>(s[i], i));
-            }
-            else
-            {
-                ans = max(ans, sum);
-                sum = i - chPos[s[i]];
-                for (auto iter = chPos.begin(); iter != chPos.end();)
-                {
-                    if (iter->second < chPos[s[i]])
-                    {
-                        chPos.erase(iter++);
-                    }
-                    else
-                    {
-                        iter++;
-                    }
-                }
-                chPos[s[i]] = i;
-            }
+            l = max(l, AppearChar[s[r]]);
+            ans = max(r - l + 1, ans);
+            AppearChar[s[r]] = r + 1;
         }
-        return max(ans, sum);
+        return ans;
     }
 };

@@ -1,46 +1,36 @@
-#pragma once
-
-
-
 class MyQueue {
-
-private:
-
-	stack<int> s1;
-	stack<int> s2;
-
 public:
-
 	MyQueue() {
-		while (!s1.empty()) s1.pop();
-		while (!s2.empty()) s2.pop();
+
 	}
 
 	void push(int x) {
-		s1.push(x);
+		stk1.push(x);
 	}
 
 	int pop() {
-		int res = peek();
-		s2.pop();
-		return res;
+		int temp = peek();
+		stk2.pop();
+		return temp;
 	}
 
 	int peek() {
-		
-		if (s2.empty())
+		if (stk2.empty())
 		{
-			while (!s1.empty())
+			while (!stk1.empty())
 			{
-				s2.push(s1.top());
-				s1.pop();
+				stk2.push(stk1.top());
+				stk1.pop();
 			}
 		}
-
-		return s2.top();
+		return stk2.top();
 	}
 
 	bool empty() {
-		return s1.empty() && s2.empty();
+		return stk1.empty() && stk2.empty();
 	}
+
+private:
+	stack<int> stk1;
+	stack<int> stk2;
 };

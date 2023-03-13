@@ -158,6 +158,7 @@
     <ClInclude Include="0034.h" />
     <ClInclude Include="0035.h" />
     <ClInclude Include="0036.h" />
+    <ClInclude Include="0004.h" />
     <ClInclude Include="0042.h" />
     <ClInclude Include="0043.h" />
     <ClInclude Include="0045.h" />
@@ -165,6 +166,7 @@
     <ClInclude Include="0054.h" />
     <ClInclude Include="0055.h" />
     <ClInclude Include="0062.h" />
+    <ClInclude Include="0072.h" />
     <ClInclude Include="0073.h" />
     <ClInclude Include="0074.h" />
     <ClInclude Include="0078.h" />
