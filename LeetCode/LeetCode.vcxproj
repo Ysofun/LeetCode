@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="0001.h" />
+    <ClInclude Include="0002.h" />
     <ClInclude Include="0003.h" />
     <ClInclude Include="0005.h" />
     <ClInclude Include="0009.h" />
@@ -153,6 +154,7 @@
     <ClInclude Include="0025.h" />
     <ClInclude Include="0026.h" />
     <ClInclude Include="0027.h" />
+    <ClInclude Include="0031.h" />
     <ClInclude Include="0032.h" />
     <ClInclude Include="0033.h" />
     <ClInclude Include="0034.h" />
@@ -165,11 +167,13 @@
     <ClInclude Include="0046.h" />
     <ClInclude Include="0054.h" />
     <ClInclude Include="0055.h" />
+    <ClInclude Include="0056.h" />
     <ClInclude Include="0062.h" />
     <ClInclude Include="0072.h" />
     <ClInclude Include="0073.h" />
     <ClInclude Include="0074.h" />
     <ClInclude Include="0078.h" />
+    <ClInclude Include="0082.h" />
     <ClInclude Include="0084.h" />
     <ClInclude Include="0092.h" />
     <ClInclude Include="0098.h" />
@@ -257,6 +261,7 @@
     <ClInclude Include="1046.h" />
     <ClInclude Include="1049.h" />
     <ClInclude Include="1104.h" />
+    <ClInclude Include="1143.h" />
     <ClInclude Include="1186.h" />
     <ClInclude Include="1221.h" />
     <ClInclude Include="0141.h" />
@@ -269,6 +274,7 @@
     <ClInclude Include="1636.h" />
     <ClInclude Include="1706.h" />
     <ClInclude Include="1790.h" />
+    <ClInclude Include="0199.h" />
     <ClInclude Include="2131.h" />
     <ClInclude Include="0349.h" />
     <ClInclude Include="2161.h" />

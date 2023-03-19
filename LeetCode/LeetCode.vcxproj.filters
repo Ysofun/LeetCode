@@ -732,6 +732,24 @@
     <ClInclude Include="0004.h">
       <Filter>头文件\LeetCode题目</Filter>
     </ClInclude>
+    <ClInclude Include="0199.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0056.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0082.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0031.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="1143.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
+    <ClInclude Include="0002.h">
+      <Filter>头文件\LeetCode题目</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="源.cpp">

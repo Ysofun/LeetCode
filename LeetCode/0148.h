@@ -1,17 +1,9 @@
-#pragma once
-
-
-
 class Solution {
 public:
 
-	ListNode* sortList(ListNode* head, ListNode* tail)
+	ListNode* Sort(ListNode* head, ListNode* tail)
 	{
-		if (head == nullptr)
-		{
-			return nullptr;
-		}
-
+		if (head == nullptr) { return nullptr; }
 		if (head->next == tail)
 		{
 			head->next = nullptr;
@@ -20,41 +12,40 @@ public:
 
 		ListNode* slow = head;
 		ListNode* fast = head;
-
-		while (fast != tail && fast->next != tail)
+		do 
 		{
 			slow = slow->next;
 			fast = fast->next->next;
-		}
+		} while (fast != tail && fast->next != tail);
 
-		return Merge(sortList(head, slow), sortList(slow, tail));
+		return merge(Sort(head, slow), Sort(slow, tail));
 	}
 
-	ListNode* Merge(ListNode* head1, ListNode* head2)
+	ListNode* merge(ListNode* left, ListNode* right)
 	{
-		ListNode* preHead = new ListNode(0);
-		ListNode* pre = preHead;
-
-		while (head1 != nullptr && head2 != nullptr)
+		ListNode* hair = new ListNode(0);
+		ListNode* head = hair;
+		while (left != nullptr && right != nullptr)
 		{
-			if (head1->val <= head2->val)
+			if (left->val < right->val)
 			{
-				pre->next = head1;
-				head1 = head1->next;
+				head->next = left;
+				left = left->next;
 			}
 			else
 			{
-				pre->next = head2;
-				head2 = head2->next;
+				head->next = right;
+				right = right->next;
 			}
-			pre = pre->next;
+			head = head->next;
 		}
-
-		pre->next = head1 == nullptr ? head2 : head1;
-		return preHead->next;
+		
+		if (left != nullptr) { head->next = left; }
+		else if (right != nullptr) { head->next = right; }
+		return hair->next;
 	}
 
 	ListNode* sortList(ListNode* head) {
-		return sortList(head, nullptr);
+		return Sort(head, nullptr);
 	}
 };
